@@ -7,9 +7,19 @@
 </head>
 <body>
     <h1>Teste de formulario</h1>
-    <form action="cadstro.php" method="get">
-        <p><label for="iuso">Usuario</label></p>
-        <input type="text" name="uso" id="iuso">
+    <form action="cadstro.php" method="post"  autocomplete="on">
+        <p>
+            <label for="iuso">Usuario</label>
+            <input type="text" name="uso" id="iuso" required  minlength="6" maxlength="20" size="30" placeholder="nome do usuario" autocomplete="username">
+        </p>
+        <P>
+            <label for="isen">Senha</label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="15" size="30" placeholder="digite sua senha">
+        </P>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar" >
+        </p>
 
     </form>
 </body>
