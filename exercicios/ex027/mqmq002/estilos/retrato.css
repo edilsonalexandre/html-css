@@ -4,4 +4,6 @@
 
 body{
     background-image: url(../imagens/paisagem-retrato.png);
+    background-size: cover;
+    background-position: center center;
 }
