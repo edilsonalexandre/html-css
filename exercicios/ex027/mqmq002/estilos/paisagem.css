@@ -3,5 +3,8 @@
 /* Aparelho  deitado*/
 
 body{
-    background-color: orange;
+    background-image: url(../imagens/paisagem-2.png);
+     background-size: cover;
+    background-position: center center;
+    
 }
